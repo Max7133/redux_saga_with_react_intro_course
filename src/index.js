@@ -9,7 +9,7 @@ import { createStore, applyMiddleware } from 'redux'; // createStore creates the
 import createSagaMiddleware from 'redux-saga'; // Creates the Saga middleware used to handle side effects in Redux
 import rootSaga from './sagas'; // Root saga where all the sagas (side effects) are managed
 
-axios.defaults.withCredentials = true;
+//axios.defaults.withCredentials = true;
 axios.defaults.baseURL = 'http://localhost:3004';
 
 // Create the Saga middleware
