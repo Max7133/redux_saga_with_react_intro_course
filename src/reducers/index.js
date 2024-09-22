@@ -3,5 +3,5 @@ import UsersReducer from './users';
 
 // combining Reducers
 export default combineReducers({
-  users: UsersReducer(),
+  users: UsersReducer,
 });
